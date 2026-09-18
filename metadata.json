@@ -1,0 +1,24 @@
+{
+    "dataset": "WELFake - Kaggle",
+    "dataset_source": "saurabhshahane/fake-news-classification",
+    "label_mapping": {
+        "0": "Fake",
+        "1": "Real"
+    },
+    "best_model": "Linear SVM",
+    "best_f1_score": 0.9653199237038321,
+    "training_samples": 50646,
+    "testing_samples": 12662,
+    "total_samples": 63308,
+    "tfidf": {
+        "ngram_range": [
+            1,
+            2
+        ],
+        "max_features": 100000,
+        "min_df": 2,
+        "max_df": 0.95,
+        "stop_words": "english",
+        "sublinear_tf": true
+    }
+}
