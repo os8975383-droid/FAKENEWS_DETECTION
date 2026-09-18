@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 
-MODEL_PATH = "models/fake_news_pipeline.pkl"
+MODEL_PATH = "fake_news_pipeline.pkl"
 
 
 # --------------------------------------------------
